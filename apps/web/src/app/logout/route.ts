@@ -7,4 +7,4 @@ export const GET = (request: NextRequest) => {
   const res = NextResponse.redirect(url)
   res.cookies.delete(env.AUTH_COOKIE_NAME)
   return res
-}
+}
