@@ -14,4 +14,4 @@ export async function createContext({
   const gate = createGate(user)
   return { req, res, user, gate }
 }
-export type Context = inferAsyncReturnType<typeof createContext>
+export type Context = inferAsyncReturnType<typeof createContext>
