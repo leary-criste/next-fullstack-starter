@@ -7,4 +7,4 @@ export const useCurrentUser = () =>
         skipBatch: true,
       },
     },
-  })
+  })
