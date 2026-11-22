@@ -97,4 +97,4 @@ export const authRouter = t.router({
 
       await sendLoginCodeEmail({ email: input.email, code: loginCode.code })
     }),
-})
+})
