@@ -56,4 +56,4 @@ export const setAuthCookie = (
 
   console.log("set auth cookie", value)
   res.setHeader("Set-Cookie", value)
-}
+}
