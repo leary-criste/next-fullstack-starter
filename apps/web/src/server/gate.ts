@@ -11,4 +11,4 @@ export const createGate = (user: AuthUser | null) => {
       return user as T extends true ? AuthUser : AuthUser | null
     },
   }
-}
+}
